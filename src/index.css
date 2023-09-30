@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image: url(https://lakshyamcoaching.netlify.app/assets/images/choosing-bg.jpg);
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+#heading{
+  text-align: center;
+}
+h1{
+  text-align:left;
+    margin-bottom: 50px;
+    display: block;
+    font-weight:bolder;
+    position: relative;
+}
+.main_div{
+  width:fit-content;
+  /* background-image: url(https://lakshyamcoaching.netlify.app/assets/images/choosing-bg.jpg); */
+  /* background-color: #172238; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    /* padding-bottom: 100px; */
+}
+.section_1{
+  position: relative;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+    /* width: 70%; */
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.menu{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: 0;
+    padding-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold
+}
+
+.active_class{
+  color: #3fe503dd;
+}
+.main_text{
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* text-align: center; */
 }
